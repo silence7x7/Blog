@@ -34,3 +34,7 @@
 ```
 还有一个问题，run code插件不支持输入，所以当你要有输入数据的时候，把"code-runner.runInTerminal": false,的false改为true  
 这样就是在vs code的terminal上运行。当然如果你要在cmd上显示运行结果，那就去tasks.json上面吧弹出cmd设为true。
+
+更新：  
+发现新大陆，File->Preferences->setting->Extensions->C/C++ ->C_CPP Default:Cpp standard是不是也能解决auto的问题？  
+以后可以直接在这里面更改，自动就会跳到json文件去！！！好方法。  
